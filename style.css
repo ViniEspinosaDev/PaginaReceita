@@ -6,7 +6,7 @@
 :root {
     font-family: "Alice", serif;
     line-height: 150%;
-    color: #573A37;
+    background-color: #573A37;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
     padding: 24px;
     background-color: #F0E8C2;
     border-radius: 24px;
-    margin: 48px auto;
+    margin: 48px auto 28px;
 }
 
 img {
@@ -33,12 +33,12 @@ main {
 }
 
 /* Section que possui section anterior */
-section + section {
+section+section {
     margin-top: 24px;
 }
 
 /* Dentro do #about paragrafro que possui paragrafo anterior */
-#about p + p {
+#about p+p {
     margin-top: 12px;
 }
 
@@ -60,4 +60,15 @@ h1, h2 {
 
 ul {
     padding-left: 24px;
+}
+
+footer {
+    color: #F0E8C2;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+footer img {
+    width: 16px;
+    vertical-align: middle;
 }
